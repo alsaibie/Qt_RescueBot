@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>CompassSquare.png</file>
+        <file>CompassSquare150.png</file>
+        <file>SegGauge/Gauge0-18.png</file>
+        <file>SegGauge/Gauge1-18.png</file>
+        <file>SegGauge/Gauge2-18.png</file>
+        <file>SegGauge/Gauge3-18.png</file>
+        <file>SegGauge/Gauge4-18.png</file>
+        <file>SegGauge/Gauge5-18.png</file>
+        <file>SegGauge/Gauge6-18.png</file>
+        <file>SegGauge/Gauge7-18.png</file>
+        <file>SegGauge/Gauge8-18.png</file>
+        <file>SegGauge/Gauge9-18.png</file>
+        <file>SegGauge/Gauge10-18.png</file>
+        <file>SegGauge/Gauge11-18.png</file>
+        <file>SegGauge/Gauge12-18.png</file>
+        <file>SegGauge/Gauge13-18.png</file>
+        <file>SegGauge/Gauge14-18.png</file>
+        <file>SegGauge/Gauge15-18.png</file>
+        <file>SegGauge/Gauge16-18.png</file>
+        <file>SegGauge/Gauge17-18.png</file>
+        <file>SegGauge/Gauge18-18.png</file>
+        <file>scorpio2Dv3.svg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="120"
+   height="120"
+   id="svg4952"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="scorpio2D.svg"
+   inkscape:export-filename="C:\Users\AlSaibie\Documents\07 HOME SCIENCE\Inkscape\Speedometer\scorpio2Dsmall.png"
+   inkscape:export-xdpi="1.8"
+   inkscape:export-ydpi="1.8">
+  <defs
+     id="defs4954">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5506">
+      <stop
+         style="stop-color:#563535;stop-opacity:1;"
+         offset="0"
+         id="stop5508" />
+      <stop
+         style="stop-color:#563535;stop-opacity:0;"
+         offset="1"
+         id="stop5510" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5506"
+       id="linearGradient3025"
+       gradientUnits="userSpaceOnUse"
+       x1="278.35001"
+       y1="480"
+       x2="801.65002"
+       y2="480" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.9166667"
+     inkscape:cx="60"
+     inkscape:cy="60"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     objecttolerance="10000"
+     showguides="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5492"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4957">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-932.36218)">
+    <g
+       id="g3017"
+       transform="matrix(0.14343017,0,0,0.14343017,-11.871796,905.29517)">
+      <rect
+         inkscape:export-ydpi="299.99249"
+         inkscape:export-xdpi="299.99249"
+         inkscape:export-filename="C:\Users\AlSaibie\Documents\07 HOME SCIENCE\Inkscape\Speedometer\scorpio2Dv2.png"
+         transform="translate(0,52.362183)"
+         y="270"
+         x="280"
+         height="420"
+         width="520"
+         id="rect5494"
+         style="opacity:0;fill:url(#linearGradient3025);fill-opacity:1;fill-rule:evenodd;stroke:#522f57;stroke-width:3.29999995;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:export-ydpi="299.99249"
+         inkscape:export-xdpi="299.99249"
+         inkscape:export-filename="C:\Users\AlSaibie\Documents\07 HOME SCIENCE\Inkscape\Speedometer\scorpio2Dv2.png"
+         id="rect5536"
+         transform="translate(0,52.362183)"
+         d="m 140,201.75 0,496.5 60,0 0,-496.5 -60,0 z m 80,0 0,496.5 44.1875,0 c 16.51377,-4.99004 29.52105,-20.22426 34.0625,-39.75 l 0,-417 c -4.54145,-19.52574 -17.54873,-34.75996 -34.0625,-39.75 l -44.1875,0 z m -100,8.75 c -8.75334,7.4303 -15.29674,18.30264 -18.25,31 l 0,417 c 2.95326,12.69736 9.49666,23.5697 18.25,31 l 0,-479 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:export-ydpi="299.99249"
+         inkscape:export-xdpi="299.99249"
+         inkscape:export-filename="C:\Users\AlSaibie\Documents\07 HOME SCIENCE\Inkscape\Speedometer\scorpio2Dv2.png"
+         id="rect5540"
+         transform="translate(0,52.362183)"
+         d="m 362.375,356.375 c -20.25083,8.44836 -34.58776,24.53525 -37,43.5 l 0,100.25 C 328.94695,528.20727 358.64375,550 395,550 l 210,0 c 31.95566,0 58.76819,-16.82638 67.21875,-39.96875 l 0,-120.0625 C 666.88967,375.37476 654.24622,363.30914 637.625,356.375 l -275.25,0 z M 462.875,400 c 13.74562,10e-5 26.11494,2.15542 37.0625,6.4375 l 0.5,0.71875 c -0.88376,3.02015 -1.91565,9.35392 -3.09375,19 l -0.59375,0.46875 -3.375,0 -0.59375,-0.53125 -0.375,-7.15625 c -0.14737,-2.34385 -0.29703,-3.71924 -0.46875,-4.125 -0.17192,-0.4056 -0.71019,-0.94007 -1.59375,-1.59375 -0.88375,-0.65351 -3.15525,-1.70504 -6.8125,-3.125 -3.65742,-1.41979 -7.3182,-2.44007 -11,-3.09375 -3.68196,-0.6535 -7.62192,-0.96866 -11.84375,-0.96875 -8.98386,9e-5 -16.9531,1.69935 -23.875,5.125 -6.92198,3.42582 -12.14622,8.41034 -15.65625,14.96875 -3.51009,6.55855 -5.25002,13.85162 -5.25,21.875 -2e-5,8.29393 1.87616,16.01182 5.65625,23.15625 3.78004,7.14449 9.212,12.73829 16.28125,16.75 7.06917,4.01173 15.31091,6 24.6875,6 4.07455,0 8.22223,-0.35 12.46875,-1.09375 4.24636,-0.74374 7.75077,-1.80398 10.5,-3.15625 0.44174,-1.44241 0.65616,-4.34641 0.65625,-8.71875 l 0,-7.5 c -9e-5,-3.56094 -0.25917,-5.77725 -0.75,-6.65625 -0.49101,-0.87894 -1.68596,-1.51436 -3.625,-1.875 -1.93921,-0.36057 -6.13155,-0.59732 -12.5625,-0.6875 l -0.65625,-0.59375 0,-2.96875 0.65625,-0.625 4.5,0.15625 c 7.70733,0.22541 13.98357,0.31254 18.84375,0.3125 2.79813,4e-5 6.9123,-0.13576 12.3125,-0.40625 l 0.71875,0.5625 0,2.03125 -0.28125,0.8125 -3.625,1.9375 c -0.88376,0.49586 -1.38408,0.88583 -1.53125,1.15625 -0.14738,0.27048 -0.34169,1.61974 -0.5625,4.03125 -0.22102,2.41156 -0.34385,5.34171 -0.34375,8.8125 -10e-5,3.92158 0.27239,8.18356 0.8125,12.78125 l -0.4375,0.6875 C 486.17376,497.63918 472.37495,500 458.1875,500 c -10.89843,0 -20.74386,-1.90116 -29.53125,-5.6875 -8.78746,-3.78634 -15.78288,-9.37503 -20.9375,-16.8125 C 402.5641,470.06257 400,461.20092 400,450.96875 c 0,-15.59606 5.79603,-27.99202 17.40625,-37.1875 C 429.01643,404.58594 444.17098,400.0001 462.875,400 z M 514,401.96875 c 8.54196,0.3607 22.7428,0.53134 42.625,0.53125 20.27485,9e-5 34.52034,-0.17055 42.71875,-0.53125 L 600,402.5625 c -0.44192,4.05689 -0.65634,11.15317 -0.65625,21.25 l -0.59375,0.53125 -3.46875,0 -0.59375,-0.625 L 593.875,417.5 c -0.39282,-3.3355 -0.68542,-5.34992 -0.90625,-6.09375 -0.221,-0.74366 -0.57166,-1.28685 -1.0625,-1.625 -0.491,-0.33798 -2.08128,-0.61828 -4.78125,-0.84375 -2.70012,-0.22529 -5.72433,-0.34366 -9.0625,-0.34375 l -13.9375,0 c -0.39279,10.18714 -0.56255,16.04743 -0.5625,17.625 l 0,39.4375 0.125,13.1875 c 0.049,5.09355 0.18528,8.39623 0.40625,9.90625 0.22086,1.51004 0.56482,2.49546 1.03125,2.96875 0.46632,0.4733 1.36197,0.88069 2.6875,1.21875 1.32542,0.33807 4.62212,0.60095 9.875,0.78125 l 0.53125,0.40625 0,3.375 -0.53125,0.53125 C 565.11994,497.67065 558.09771,497.5 556.625,497.5 c -1.57098,0 -8.54856,0.17065 -20.96875,0.53125 L 535.0625,497.5 l 0,-3.375 0.59375,-0.40625 c 4.6146,-0.1803 7.65892,-0.41704 9.15625,-0.6875 1.49726,-0.27045 2.4845,-0.60303 3,-1.03125 0.51543,-0.42821 0.96882,-1.35265 1.3125,-2.75 0.3436,-1.39733 0.49996,-4.52066 0.5,-9.34375 l 0.15625,-14.25 0,-39.4375 c -4e-5,-0.72114 -0.20105,-6.58142 -0.59375,-17.625 l -10.96875,0 c -4.51647,9e-5 -8.42962,0.0698 -11.71875,0.25 -3.28916,0.18039 -5.17205,0.66259 -5.6875,1.40625 -0.51547,0.74383 -0.99568,3.14821 -1.4375,7.25 l -0.75,6.21875 -0.65625,0.625 -3.375,0 L 514,423.8125 c -0.0982,-10.86311 -0.31261,-17.9594 -0.65625,-21.25 L 514,401.96875 z"
+         style="fill:#f2aa00;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+      <path
+         inkscape:export-ydpi="299.99249"
+         inkscape:export-xdpi="299.99249"
+         inkscape:export-filename="C:\Users\AlSaibie\Documents\07 HOME SCIENCE\Inkscape\Speedometer\scorpio2Dv2.png"
+         id="rect5536-1"
+         d="m 858.25,752.36218 0,-496.50002 -60,0 0,496.50002 60,0 z m -80,0 0,-496.50002 -44.1875,0 c -16.51377,4.9901 -29.52105,20.2243 -34.0625,39.75002 l 0,417 c 4.54145,19.5257 17.54873,34.76 34.0625,39.75 l 44.1875,0 z m 100,-8.75 c 8.75334,-7.4303 15.29674,-18.3026 18.25,-31 l 0,-417 c -2.95326,-12.69732 -9.49666,-23.56972 -18.25,-31.00002 l 0,479.00002 z"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0" />
+      <rect
+         inkscape:export-ydpi="299.99249"
+         inkscape:export-xdpi="299.99249"
+         inkscape:export-filename="C:\Users\AlSaibie\Documents\07 HOME SCIENCE\Inkscape\Speedometer\scorpio2Dv2.png"
+         y="602.36218"
+         x="480"
+         height="300"
+         width="40"
+         id="rect5620"
+         style="fill:#9d7b48;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+      <rect
+         inkscape:export-ydpi="299.99249"
+         inkscape:export-xdpi="299.99249"
+         inkscape:export-filename="C:\Users\AlSaibie\Documents\07 HOME SCIENCE\Inkscape\Speedometer\scorpio2Dv2.png"
+         ry="9.7483234"
+         rx="9.3258429"
+         y="777.36218"
+         x="450"
+         height="175"
+         width="100"
+         id="rect5622"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+    </g>
+  </g>
+</svg>

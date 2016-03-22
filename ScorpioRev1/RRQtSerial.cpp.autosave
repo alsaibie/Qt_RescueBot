@@ -1,0 +1,154 @@
+#include "RRQtSerial.h"
+#include <QSettings>
+#include <QMessageBox>
+RR_QtSerial::RR_QtSerial(QObject *parent) :
+    QObject(parent), port(0)
+{
+
+    baudRates[0] = BAUD300;
+    baudRates[1] = BAUD2400;
+    baudRates[2] = BAUD4800;
+    baudRates[3] = BAUD9600;
+    baudRates[4] = BAUD19200;
+    baudRates[5] = BAUD38400;
+    baudRates[6] = BAUD57600;
+    baudRates[7] = BAUD115200;
+
+ //Find Serial Ports
+    /*
+#ifdef _TTY_POSIX_
+    QDir dir("/dev");
+    QStringList filterList("ttyS*");
+    filterList += QStringList("ttyUSB*");
+    filterList += QStringList("ttyACM*");
+    dir.setNameFilters(filterList);
+    QStringList devices = dir.entryList(QDir::System);
+#elif defined(_TTY_WIN_)
+    QList< QextPortInfo > list = QextSerialEnumerator::getPorts();
+    QStringList devices;
+    for (int i=0;i<list.count();i++)
+    {
+        QString s = list.at(i).portName;
+        char t[20];
+        for(int j=0;j<s.length();j++)
+        {
+            if (!isprint((int)s.at(j).toAscii()))
+            {
+                s.resize(j);
+                break;
+            }
+            else
+                t[j] = s.at(j).toAscii();
+        }
+        devices.append(s);
+    }
+#endif
+
+    for(int i=0;i<devices.count();i++)
+    {
+        if (!devices.at(i).contains("ttys"))
+            dlgUi.listPorts->addItem(devices.at(i));
+        if (devices.at(i) == deviceName)
+            selectedDevice = devices.at(i);
+    }
+    if (!selectedDevice.isEmpty())
+    {
+        for (int i=0;i<dlgUi.listPorts->count();i++)
+            if (selectedDevice == dlgUi.listPorts->item(i)->text())
+                dlgUi.listPorts->setCurrentRow(i);
+    }
+*/
+    //---- Settings ---- TODO: Import from configuration & use QSetting
+    hwFlow = true;
+    baudNdx = 7;
+    deviceName = "COM7";
+}
+
+void RR_QtSerial::printReceivedBytes(QPlainTextEdit *textEdit,QByteArray *bytes)
+{
+    bytes.replace("\r", "");
+    if (bytes.contains(8))
+    {
+        // Must parse backspace commands manually
+        for (int i=0;i<bytes.count();i++)
+        {
+            char ch = bytes.at(i);
+            if (ch == 8)
+            {
+                // Backspace
+                QString s = textEdit->toPlainText();
+                s.chop(1);
+                textEdit->setPlainText(s);
+
+            }
+            else
+            {
+                // Add char to edit
+                QString s(ch);
+                textEdit->insertPlainText(s);
+            }
+            textEdit->moveCursor(QTextCursor::End);
+        }
+    }
+    else
+    {
+        textEdit->moveCursor(QTextCursor::End);
+        textEdit->insertPlainText(bytes);
+    }
+    
+    textEdit->ensureCursorVisible(); 
+}
+
+void RR_QtSerial::receiveBytes()
+{
+    if (!port) return;
+    receivedBytes = port->readAll();
+    if (receivedBytes.isEmpty()) return;
+    emit gotBytes();
+}
+
+void RR_QtSerial::sendBytes()
+{
+    if (!port) return;
+    if(sentBytes->isEmpty()) return;
+    port->write(sentBytes);  
+}
+
+void RR_QtSerial::connectSerial()
+{
+    if (!port){
+        // Open it
+        // Start comm
+        QString device;
+#ifdef _TTY_POSIX_
+        device = QString("/dev/");
+#endif
+        device += deviceName;
+        port = new QextSerialPort(device, QextSerialPort::Polling);
+        port->setBaudRate((BaudRateType)baudRates[baudNdx]);
+        port->setDataBits(DATA_8);
+        port->setParity(PAR_NONE);
+        port->setStopBits(STOP_1);
+        port->setFlowControl(hwFlow ? FLOW_HARDWARE : FLOW_OFF);
+        port->setTimeout(100);
+
+        if (!port->open(QIODevice::ReadWrite)){
+            delete port;
+            port = NULL;
+            QString s("Cannot open port ");
+            s += device;
+            QMessageBox::critical(this,"Error",s);
+        }
+        emit gotConnected();
+    }  
+}
+
+void RR_QtSerial::disconnectSerial()
+{
+    if (port){
+        //Close it
+        delete port;
+        port = NULL;
+        emit gotDisconnected();
+    }  
+}
